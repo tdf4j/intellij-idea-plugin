@@ -1,0 +1,6 @@
+        <fileType
+                name="TDF file"
+                implementationClass="io.github.therealmone.tdf4j.plugin.TDF"
+                fieldName="INSTANCE"
+                language=""
+                extensions=""/>
