@@ -1,4 +1,4 @@
-package io.github.therealmone.tdf4j.plugin;
+package org.tdf4j.plugin;
 
 import com.intellij.lang.Language;
 

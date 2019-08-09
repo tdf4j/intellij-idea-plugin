@@ -1,15 +1,15 @@
-package io.github.therealmone.tdf4j.plugin;
+package org.tdf4j.plugin;
 
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import javax.swing.*;
 
-public class TDF extends LanguageFileType {
+public class TDFLanguageFileType extends LanguageFileType {
 
-    public static final TDF INSTANCE = new TDF();
+    public static final TDFLanguageFileType INSTANCE = new TDFLanguageFileType();
 
-    private TDF() {
+    private TDFLanguageFileType() {
         super(TDFLanguage.INSTANCE);
     }
 

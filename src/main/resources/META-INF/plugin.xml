@@ -1,18 +1,18 @@
 <idea-plugin>
-    <id>io.github.therealmone.tdf4j.plugin</id>
-    <name>tdf4j</name>
-    <vendor>Pombl4</vendor>
+  <id>org.tdf4j.plugin</id>
+  <name>tdf4j</name>
+  <vendor>tdf4j.org</vendor>
 
-    <description><![CDATA[
+  <description><![CDATA[
     Enter short description for your plugin here.<br>
     <em>most HTML tags may be used</em>
     ]]></description>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <fileTypeFactory implementation="io.github.therealmone.tdf4j.plugin.TDFactory"/>
-         </extensions>
+  <extensions defaultExtensionNs="com.intellij">
+    <fileTypeFactory implementation="org.tdf4j.plugin.TDFileTypeFactory"/>
+  </extensions>
 
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
 </idea-plugin>
