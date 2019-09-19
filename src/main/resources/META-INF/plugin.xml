@@ -9,10 +9,9 @@
     ]]></description>
 
   <extensions defaultExtensionNs="com.intellij">
-    <fileTypeFactory implementation="org.tdf4j.plugin.TDFileTypeFactory"/>
+    <fileTypeFactory implementation="org.tdf4j.plugin.TDFFileTypeFactory"/>
+    <lang.parserDefinition language="Tdf" implementationClass="org.tdf4j.plugin.TDFParserDefinition"/>
+    <lang.syntaxHighlighterFactory key="Tdf" implementationClass="org.tdf4j.plugin.TDFSyntaxHighlighterFactory"/>
+    <colorSettingsPage implementation="org.tdf4j.plugin.TDFColorSettingsPage"/>
   </extensions>
-
-  <actions>
-    <!-- Add your actions here -->
-  </actions>
 </idea-plugin>

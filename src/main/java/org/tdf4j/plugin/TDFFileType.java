@@ -5,11 +5,11 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import javax.swing.*;
 
-public class TDFLanguageFileType extends LanguageFileType {
+public class TDFFileType extends LanguageFileType {
 
-    public static final TDFLanguageFileType INSTANCE = new TDFLanguageFileType();
+    public static final TDFFileType INSTANCE = new TDFFileType();
 
-    private TDFLanguageFileType() {
+    private TDFFileType() {
         super(TDFLanguage.INSTANCE);
     }
 
